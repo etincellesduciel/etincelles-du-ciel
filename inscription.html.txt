@@ -1,0 +1,54 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inscription - École Étincelle du Ciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>École Étincelle du Ciel</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="programme.html">Programme</a>
+      <a href="inscription.html" class="active">Inscription</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inscription">
+      <h2>Inscription des Élèves</h2>
+      <p>Nous acceptons les inscriptions pour les cycles primaire et secondaire. Veuillez remplir le formulaire ci-dessous ou vous rendre à notre secrétariat pour une inscription physique.</p>
+
+      <form action="#" method="post">
+        <label for="nom">Nom de l'élève :</label>
+        <input type="text" id="nom" name="nom" required />
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required />
+
+        <label for="niveau">Niveau souhaité :</label>
+        <select id="niveau" name="niveau" required>
+<option value="">-- Choisir un niveau --</option>
+          <option value="primaire">Primaire</option>
+          <option value="secondaire">Secondaire</option>
+        </select>
+
+        <label for="contact">Contact des parents :</label>
+        <input type="tel" id="contact" name="contact" required />
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 École Étincelle du Ciel - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+```

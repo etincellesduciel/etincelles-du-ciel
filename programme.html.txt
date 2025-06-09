@@ -1,0 +1,50 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Programme - École Étincelle du Ciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>École Étincelle du Ciel</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="programme.html" class="active">Programme</a>
+      <a href="inscription.html">Inscription</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="programme">
+      <h2>Notre Programme Scolaire</h2>
+      <p>Notre programme suit les normes nationales d'éducation tout en intégrant des activités complémentaires pour renforcer les compétences des élèves.</p>
+
+      <h3>Cycle Primaire</h3>
+      <ul>
+        <li>Français, Mathématiques, Sciences</li>
+        <li>Éducation civique et morale</li>
+        <li>Informatique de base</li>
+        <li>Activités sportives et artistiques</li>
+      </ul>
+
+      <h3>Cycle Secondaire</h3>
+      <ul>
+        <li>Mathématiques, Physique, Chimie, Biologie</li>
+        <li>Français, Anglais, Histoire-Géographie</li>
+<li>Technologie et Informatique</li>
+        <li>Projets scientifiques et culturels</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 École Étincelle du Ciel - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+```

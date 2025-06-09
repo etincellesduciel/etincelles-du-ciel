@@ -1,0 +1,56 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - École Étincelle du Ciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>École Étincelle du Ciel</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="programme.html">Programme</a>
+      <a href="inscription.html">Inscription</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>Contactez-nous</h2>
+      <p>Pour toute information ou demande, n’hésitez pas à nous écrire ou nous appeler.</p>
+
+      <form action="#" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <div class="infos">
+        <h3>Informations de contact</h3>
+<p>Adresse : Quartier moungali, Brazzaville, Congo</p>
+        <p>Téléphone : ‪+242 06 5465002</p>
+        <p>Email : contact@etincelleduciel.cg</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 École Étincelle du Ciel - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+```

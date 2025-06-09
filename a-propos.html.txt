@@ -1,0 +1,49 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>À propos - École Étincelle du Ciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>École Étincelle du Ciel</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html" class="active">À propos</a>
+      <a href="programme.html">Programme</a>
+      <a href="inscription.html">Inscription</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="histoire">
+      <h2>Notre Histoire</h2>
+      <p>Fondée en 2005, l’École Étincelle du Ciel est née d’un désir de proposer une éducation moderne, inclusive et centrée sur le développement personnel et académique des élèves.</p>
+    </section>
+
+    <section class="mission">
+      <h2>Notre Mission</h2>
+      <p>Nous visons à former des citoyens responsables, autonomes et ouverts sur le monde, en leur offrant un enseignement de qualité et un environnement scolaire bienveillant.</p>
+    </section>
+
+    <section class="valeurs">
+      <h2>Nos Valeurs</h2>
+      <ul>
+<li>Respect et tolérance</li>
+        <li>Excellence académique</li>
+        <li>Responsabilité et engagement</li>
+        <li>Innovation et créativité</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 École Étincelle du Ciel - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+```

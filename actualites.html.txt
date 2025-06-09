@@ -1,0 +1,48 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Actualités - École Étincelle du Ciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>École Étincelle du Ciel</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="programme.html">Programme</a>
+      <a href="inscription.html">Inscription</a>
+      <a href="actualites.html" class="active">Actualités</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="actualites">
+      <h2>Nos dernières actualités</h2>
+
+      <article>
+        <h3>Rentrée scolaire 2025</h3>
+        <p>La rentrée est prévue pour le 15 septembre 2025. Tous les élèves sont attendus à 7h30 avec leurs fournitures.</p>
+      </article>
+
+      <article>
+        <h3>Résultats des examens</h3>
+        <p>Félicitations à nos élèves pour leurs excellents résultats ! Le taux de réussite atteint 92% cette année.</p>
+      </article>
+
+      <article>
+        <h3>Journée culturelle</h3>
+        <p>La journée culturelle se tiendra le 28 juin. Parents et amis sont invités à venir découvrir les talents de nos élèves.</p>
+      </article>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 École Étincelle du Ciel - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+```
